@@ -1,0 +1,9 @@
+version: 3
+
+tasks:
+  generate:
+    aliases:
+      - migrate
+    desc: "Run the migrator to apply the migrations to the database"
+    cmds:
+      - go run ./cmd/migrator --storage-path=./storage/auth.db --migrations-path=./migrations
