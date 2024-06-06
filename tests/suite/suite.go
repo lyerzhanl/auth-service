@@ -1,9 +1,9 @@
 package suite
 
 import (
-	authv1 "Authorization-Service/contracts/gen/go/auth"
 	"Authorization-Service/service/internal/config"
 	"context"
+	authv1 "github.com/lyerzhanl/contracts/gen/go/auth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"net"

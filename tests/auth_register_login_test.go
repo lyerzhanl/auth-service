@@ -1,10 +1,10 @@
 package tests
 
 import (
-	authv1 "Authorization-Service/contracts/gen/go/auth"
 	"Authorization-Service/service/tests/suite"
 	"github.com/brianvoe/gofakeit/v6"
 	"github.com/golang-jwt/jwt/v5"
+	authv1 "github.com/lyerzhanl/contracts/gen/go/auth"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

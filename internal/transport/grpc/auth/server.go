@@ -1,11 +1,11 @@
 package auth
 
 import (
-	authv1 "Authorization-Service/contracts/gen/go/auth"
 	"Authorization-Service/service/internal/services/auth"
 	"Authorization-Service/service/internal/storage"
 	"context"
 	"errors"
+	authv1 "github.com/lyerzhanl/contracts/gen/go/auth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
